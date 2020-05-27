@@ -7,6 +7,7 @@
 ;; addresses of buyer, seller and escrow are hard-coded,
 ;; a new contract is needed for each deal
 (define-constant buyer 'ST398K1WZTBVY6FE2YEHM6HP20VSNVSSPJTW0D53M)
+;; TODO:variable seller address how about we pass the contract through a text processing function?
 (define-constant seller 'ST1JDEC841ZDWN9CKXKJMDQGP5TW1AM10B7EV0DV9)
 (define-constant escrow 'ST398K1WZTBVY6FE2YEHM6HP20VSNVSSPJTW0D53M.escrow)
 

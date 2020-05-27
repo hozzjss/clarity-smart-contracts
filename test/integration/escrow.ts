@@ -9,8 +9,8 @@ import {
   ChainID,
   makeStandardSTXPostCondition,
   makeContractSTXPostCondition,
-  StacksTestnet,
   broadcastTransaction,
+  StacksTestnet,
 } from "@blockstack/stacks-transactions";
 
 const STACKS_API_URL = "http://localhost:20443";
