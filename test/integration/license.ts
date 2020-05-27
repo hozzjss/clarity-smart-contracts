@@ -23,7 +23,7 @@ describe("oi license contract test suite", async () => {
       .readFileSync("./contracts/license/license.clar")
       .toString();
 
-    let fee = new BigNum(3000);
+    let fee = new BigNum(5436);
     let secretKey = keys.secretKey;
     let secretKey2 = keys2.secretKey;
 
